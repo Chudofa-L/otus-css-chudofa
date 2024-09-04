@@ -20,6 +20,7 @@ body {
 }
 
 .nav {
+    color: black;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 500;

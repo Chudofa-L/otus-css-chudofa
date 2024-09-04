@@ -1,0 +1,45 @@
+.header {
+    width: 1397px;
+    height: 135px;
+    margin: 0px 20px 0px 23px;
+}
+
+.headline {
+    text-align: left;
+    padding: 0px;
+    margin: 16px 10px 16px 0px;
+    display: inline-block;
+    width: 182px;
+    height: 103px;
+}
+
+.nav {
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    padding: 0px 0px 0px 529px;
+    margin: 53px 0px 53px 10px;
+}
+
+li {
+    display: inline;
+    padding: 0px 55px 0px 0px;
+}
+
+.hero_section {
+    background-image: url(images/inside-weather-Uxqlfigh6oE-unsplash\ 1.jpg);
+    width: 1440px;
+    height: 630px;
+    position: relative
+}
+
+.title_section {
+    background-color: white;
+    width: 690px;
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
