@@ -60,12 +60,13 @@ body {
     text-align: left;
 }
 
-.list {
+.list-1 {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 500;
     line-height: 21.09px;
     text-align: left;
+
 }
 
 .quote1 {
@@ -156,7 +157,7 @@ body {
     text-align: left;
 }
 
-.list {
+.list-2 {
     font-family: Bitter;
     font-size: 34px;
     font-weight: 400;

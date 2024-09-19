@@ -28,6 +28,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+    color: black;
 }
 blockquote, q {
 	quotes: none;
@@ -50,7 +51,7 @@ body {
 .header {
     min-width: 1397px;
     min-height: 135px;
-    margin: 0px 20px 0px 22px;
+    margin: 0px 20px 0px 23px;
 }
 
 .headline {
@@ -64,22 +65,22 @@ body {
 }
 
 .nav {
-    width: 1195px;
-    height: 19px;
+    min-height: 1195px;
+    min-height: 19px;
     text-align: right;
     list-style: none;
     display: inline-block;
     position: absolute;
     margin: 58px 0px 58px 202px;
     right: 0;
-
 }
-
-li {
+.li-1, .li-2, .li-3, .li-4 {
     display: inline;
     padding: 0px 55px 0px 0px;
 }
-
+.li-4{
+    padding: 0;
+}
 .hero_section {
     background-image: url(images/inside-weather-Uxqlfigh6oE-unsplash\ 1.jpg);
     width: 100%;
@@ -89,8 +90,8 @@ li {
 
 .title_section {
     background-color: white;
-    width: 690px;
-    height: 361px;
+    min-width: 690px;
+    min-height: 361px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -98,11 +99,64 @@ li {
     vertical-align: middle;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 14px;
 }
 
 .title {
-    height: 141px;
+    width: 100%;
+}
+.subtitle{
+    width: 100%;
+}
 
+
+.Biography{
+    display: flex;
+    max-width: 1165px;
+    margin: 150px auto;
+    box-sizing: border-box;
+}
+
+.img_Katya_Mills{
+    width: 49%;
+    object-fit: cover;
+    
+    
+}
+
+.description_Katya_Mills{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.heading_Biography{
+    flex-grow: 1;
+}
+#Biography{
+    margin: 0;
+    transform: rotate(-90deg) translateX(-40%);
+}
+
+.author{
+    width: 100%;
+}
+
+.list-1{
+    width: 100%;  
+}
+
+.quote1{
+    width: 100%;
+}
+
+.dash{
+    width: 20px;
+    height: 6px;
+    margin: 0px 0px 18px 0px;
 }
