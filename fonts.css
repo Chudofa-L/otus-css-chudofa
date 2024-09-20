@@ -170,7 +170,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    
+    color: white;
 }
 
 .text_footer1 {
@@ -178,7 +179,8 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 21.09px;
-    text-align: center;
+    
+    color: white;
 }
 
 .text_footer2 {
@@ -186,7 +188,8 @@ body {
     font-size: 24px;
     font-weight: 900;
     line-height: 28.13px;
-    text-align: center;
+    
+    color: white;
 }
 
 .text_footer3 {
@@ -194,5 +197,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
-    text-align: right;
+    
+    color: white;
 }
