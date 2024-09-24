@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    min-width: 1397px;
+    min-height: 135px;
+    margin: 0px 20px 0px 22px;
+}
+
+.headline {
+    width: 182px;
+    min-height: 103px;
+    text-align: left;
+    padding: 0;
+    margin: 16px 20px 16px 0px;
+    display: inline-block;
+
+}
+
+.nav {
+    width: 1195px;
+    height: 19px;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    margin: 58px 0px 58px 202px;
+    right: 0;
+
+}
+
+li {
+    display: inline;
+    padding: 0px 55px 0px 0px;
+}
+
+.hero_section {
+    background-image: url(images/inside-weather-Uxqlfigh6oE-unsplash\ 1.jpg);
+    width: 100%;
+    height: 613px;
+    position: relative;
+}
+
+.title_section {
+    background-color: white;
+    width: 690px;
+    height: 361px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    height: 141px;
+
+}
