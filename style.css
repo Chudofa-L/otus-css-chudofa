@@ -1,46 +1,132 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
     color: black;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 body {
@@ -49,13 +135,13 @@ body {
 }
 
 .header {
-    min-width: 1397px;
+    max-width: 1397px;
     min-height: 135px;
     margin: 0px 20px 0px 23px;
 }
 
 .headline {
-    width: 182px;
+    max-width: 182px;
     min-height: 103px;
     text-align: left;
     padding: 0;
@@ -65,7 +151,7 @@ body {
 }
 
 .nav {
-    min-height: 1195px;
+    max-width: 1195px;
     min-height: 19px;
     text-align: right;
     list-style: none;
@@ -74,13 +160,19 @@ body {
     margin: 58px 0px 58px 202px;
     right: 0;
 }
-.li-1, .li-2, .li-3, .li-4 {
+
+.li-1,
+.li-2,
+.li-3,
+.li-4 {
     display: inline;
     padding: 0px 55px 0px 0px;
 }
-.li-4{
+
+.li-4 {
     padding: 0;
 }
+
 .hero_section {
     background-image: url(images/inside-weather-Uxqlfigh6oE-unsplash\ 1.jpg);
     width: 100%;
@@ -108,26 +200,27 @@ body {
 .title {
     width: 100%;
 }
-.subtitle{
+
+.subtitle {
     width: 100%;
 }
 
 
-.Biography{
+.Biography {
     display: flex;
     max-width: 1165px;
     margin: 150px auto;
     box-sizing: border-box;
 }
 
-.img_Katya_Mills{
+.img_Katya_Mills {
     width: 49%;
     object-fit: cover;
-    
-    
+
+
 }
 
-.description_Katya_Mills{
+.description_Katya_Mills {
     width: 72%;
     display: flex;
     flex-direction: column;
@@ -135,28 +228,77 @@ body {
     align-items: center;
     gap: 36px;
 }
-.heading_Biography{
+
+.heading_Biography {
     flex-grow: 1;
 }
-#Biography{
+
+#Biography {
     margin: 0;
     transform: rotate(-90deg) translateX(-40%);
 }
 
-.author{
+.author {
     width: 100%;
 }
 
-.list-1{
-    width: 100%;  
-}
-
-.quote1{
+.list-1 {
     width: 100%;
 }
 
-.dash{
+.quote1 {
+    width: 100%;
+}
+
+.dash {
     width: 20px;
     height: 6px;
     margin: 0px 0px 18px 0px;
+}
+
+.Testimonials {
+    display: grid;
+    max-width: 1165px;
+    min-height: 760px;
+    margin: 150px auto;
+    grid-template-columns: 1fr 451px 1fr 451px;
+    justify-content: center;
+
+
+}
+
+.website-section {
+    display: grid;
+    min-height: 760px;
+    grid-template-rows: 190px 190px 190px;
+    row-gap: 70px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.web-1,
+.web-2,
+.web-3 {
+    margin: 0;
+    transform: rotate(-90deg) translate(-10%, 50%);
+}
+
+#Testimonials {
+    margin: 0;
+    transform: rotate(-90deg) translate(-40%, -100%);
+}
+
+.blockquote-testimonials {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 42px;
+}
+
+.img-photo {
+    max-width: 221px;
+    object-fit: cover;
 }
