@@ -137,7 +137,8 @@ body {
 .header {
     max-width: 1397px;
     min-height: 135px;
-    margin: 0px 20px 0px 23px;
+    margin-left: 23px;
+    margin-right: 20px;
 }
 
 .headline {
@@ -170,7 +171,7 @@ body {
 }
 
 .li-4 {
-    padding: 0;
+    padding: 20px;
 }
 
 .hero_section {
@@ -322,6 +323,7 @@ body {
     column-gap: 20px;
     align-items: end;
     overflow-x: scroll;
+
 }
 
 .designer-Jess-Wonder {
@@ -330,7 +332,4 @@ body {
     align-items: end;
 }
 
-.img-designers{
-    object-fit: cover;
-}
 
